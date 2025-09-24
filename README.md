@@ -105,6 +105,18 @@ Same as above, but includes:
 
 ---
 
+##  Synthetic Data Generation with GAN
+
+To construct the synthetic dataset used in this project, we implemented a **Generative Adversarial Network (GAN)** in PyTorch.  
+The GAN learns the joint distribution of firm-level features from the original dataset (`firms_features_clean.csv`) and generates a synthetic dataset (`firms_features_clean_synt.csv`) that preserves key statistical properties while ensuring confidentiality.
+
+The training loop alternates between a **Generator**, which creates synthetic firm data from random noise, and a **Discriminator**, which distinguishes between real and synthetic samples. After training, the generator is used to produce a full synthetic dataset of firms.
+
+You can find the reference implementation here:  
+**[`Data Sintetica GAN.py`](docs/Data%20Sintetica%20GAN.py)** .
+
+---
+
 ## 🔍 Validation of Synthetic vs Real Data
 
 To assess the quality of the synthetic dataset (`firms_features_clean_synt.csv`), we compare descriptive statistics, distributions, and correlation structures against the real dataset (`firms_features_clean.csv`).

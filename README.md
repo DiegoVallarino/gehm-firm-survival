@@ -105,6 +105,22 @@ Same as above, but includes:
 
 ---
 
+## 🔍 Validation of Synthetic vs Real Data
+
+To assess the quality of the synthetic dataset (`firms_features_clean_synt.csv`), we compare descriptive statistics, distributions, and correlation structures against the real dataset (`firms_features_clean.csv`).
+
+### 📊 Descriptive Statistics Comparison
+<img width="527" height="542" alt="1" src="https://github.com/user-attachments/assets/ec3c079a-35cc-493d-b5e8-86fa3da9dd5b" />
+
+
+###  Correlation Structures (Real vs Synthetic)
+<img width="1047" height="585" alt="image" src="https://github.com/user-attachments/assets/e7d4b5e0-2144-444a-8196-2d368d5831cf" />
+
+
+The results show differences in correlation patterns and distribution alignment, with average absolute difference in correlations of **0.189** and significant KS/Wasserstein distances for key variables. These diagnostics guide further GAN tuning for improved fidelity.
+
+---
+
 ##  Model Summary
 
 ###  GNN (Graph Convolutional Network)

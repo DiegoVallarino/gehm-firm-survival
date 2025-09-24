@@ -21,8 +21,8 @@ GraphSurvival-AI/
 ├── README.md                       # This file
 ├── LICENSE                         # License terms (MIT or CC-BY-NC)
 ├── data/
-│   ├── firms_features.csv          # Raw firm data for embedding generation
-│   └── firms_survival_full.csv     # Panel with survival outcomes + embeddings
+│   ├── firms_features_clean.csv          # Raw firm data for embedding generation
+│   └── firms_survival_full_clean.csv     # Panel with survival outcomes + embeddings
 │
 ├── python/
 │   └── gnn_embeddings.py           # Script to generate GNN-based embeddings

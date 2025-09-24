@@ -108,7 +108,7 @@ Same as above, but includes:
 ##  Synthetic Data Generation with GAN
 
 To construct the synthetic dataset used in this project, we implemented a **Generative Adversarial Network (GAN)** in PyTorch.  
-The GAN learns the joint distribution of firm-level features from the original dataset (`firms_features_clean.csv`) and generates a synthetic dataset (`firms_features_clean_synt.csv`) that preserves key statistical properties while ensuring confidentiality.
+The GAN learns the joint distribution of firm-level features from the original dataset (`real_data.csv`) and generates a synthetic dataset (`firms_features_clean.csv`) that preserves key statistical properties while ensuring confidentiality.
 
 The training loop alternates between a **Generator**, which creates synthetic firm data from random noise, and a **Discriminator**, which distinguishes between real and synthetic samples. After training, the generator is used to produce a full synthetic dataset of firms.
 
@@ -129,7 +129,9 @@ To assess the quality of the synthetic dataset (`firms_features_clean_synt.csv`)
 <img width="1047" height="585" alt="image" src="https://github.com/user-attachments/assets/e7d4b5e0-2144-444a-8196-2d368d5831cf" />
 
 
-The results show differences in correlation patterns and distribution alignment, with average absolute difference in correlations of **0.189** and significant KS/Wasserstein distances for key variables. These diagnostics guide further GAN tuning for improved fidelity.
+
+The evaluation highlights deviations between real and synthetic data, with an average absolute correlation difference of **0.189** and significant KS/Wasserstein statistics for key features. These diagnostics underscore the importance of iterative GAN tuning to enhance the fidelity and utility of the synthetic dataset.
+
 
 ---
 

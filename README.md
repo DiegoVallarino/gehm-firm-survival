@@ -85,7 +85,7 @@ This script performs:
 
 ##  Data Description
 
-### firms_features.csv
+### firms_features_clean.csv
 | Column          | Description                           |
 |----------------|---------------------------------------|
 | Firm_ID        | Unique identifier for each firm       |
@@ -96,11 +96,11 @@ This script performs:
 | Profit_Margin  | Numeric: profitability measure        |
 | Org_Complexity | Numeric: number of branches, etc.     |
 | RD_Intensity   | Numeric: R&D investment ratio         |
+| Event_Time     | Duration until exit or censoring      |
+| Status         | 1 = exited, 0 = censored              |
 
-### firms_survival_full.csv
+### firms_survival_full_clean.csv
 Same as above, but includes:
-- `Event_Time`: Duration until exit or censoring
-- `Status`: 1 = exited, 0 = censored
 - `Embed_1` to `Embed_4`: GNN-based node embeddings
 
 ---

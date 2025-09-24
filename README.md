@@ -113,7 +113,7 @@ The GAN learns the joint distribution of firm-level features from the original d
 The training loop alternates between a **Generator**, which creates synthetic firm data from random noise, and a **Discriminator**, which distinguishes between real and synthetic samples. After training, the generator is used to produce a full synthetic dataset of firms.
 
 You can find the reference implementation here:  
-**[`Data Sintetica GAN.py`](docs/Data%20Sintetica%20GAN.py)** .
+**[`Data Sintetica GAN.py`](Data%20Sintetica%20GAN.py)** .
 
 ---
 

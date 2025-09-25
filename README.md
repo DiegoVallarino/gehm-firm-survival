@@ -119,7 +119,7 @@ You can find the reference implementation here:
 
 ## 🔍 Validation of Synthetic vs Real Data
 
-To assess the quality of the synthetic dataset (`firms_features_clean_synt.csv`), we compare descriptive statistics, distributions, and correlation structures against the real dataset (`firms_features_clean.csv`).
+To assess the quality of the synthetic dataset (`firms_features_clean.csv`), we compare descriptive statistics, distributions, and correlation structures against the real dataset (`real_data.csv`).
 
 ### 📊 Descriptive Statistics Comparison
 <img width="527" height="542" alt="1" src="https://github.com/user-attachments/assets/ec3c079a-35cc-493d-b5e8-86fa3da9dd5b" />

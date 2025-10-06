@@ -1,4 +1,4 @@
-#  Project: GNN-Enhanced Survival Analysis for Firms
+lo#  Project: GNN-Enhanced Survival Analysis for Firms
 
 **Author:** Diego Vallarino, PhD  
 **Last Updated:** September 2025  
@@ -179,7 +179,4 @@ For access to the private GitHub repository, real data, or further replication f
 
 ---
 
-## Disclaimer
-This repository uses **synthetic data** generated for methodological illustration only. Results do not represent real firms or behaviors. Users intending to replicate the pipeline with real data should replace `data/` inputs accordingly and comply with all ethical and legal data access conditions.
 
----

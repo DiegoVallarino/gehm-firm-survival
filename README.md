@@ -1,4 +1,4 @@
-lo#  Project: GNN-Enhanced Survival Analysis for Firms
+#  Project: GNN-Enhanced Survival Analysis for Firms
 
 **Author:** Diego Vallarino, PhD  
 **Last Updated:** September 2025  
@@ -117,7 +117,7 @@ You can find the reference implementation here:
 
 ---
 
-## 🔍 Validation of Synthetic vs Real Data
+##  Validation of Synthetic vs Real Data
 
 To assess the quality of the synthetic dataset (`firms_features_clean.csv`), we compare descriptive statistics, distributions, and correlation structures against the real dataset (`real_data.csv`).
 
@@ -174,7 +174,7 @@ Use of this repository is granted for **academic purposes only**. Please cite:
 
 ---
 
-## ✉️ Contact
+## Contact
 For access to the private GitHub repository, real data, or further replication files, contact: **diegoval@iadb.org**
 
 ---
